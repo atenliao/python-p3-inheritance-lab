@@ -21,5 +21,5 @@ class Teacher(User):
         
 
     def teach(self):
-        index = random.randint(0,16)
+        index = random.randint(0,10)
         return self.knowledge[index]
